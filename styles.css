@@ -25,20 +25,21 @@ button{
     cursor: pointer;
     border: none;
     border-radius: 3px;
-    border:  solid #664E88 1px  ;
+    border:  solid #664E88 1.7px  ;
 }
 #delete-btn{
-    margin-left: 2px;
+    display: none;
+    margin-bottom: 0;
     color: #664E88;
     background-color: white;
   
 }
-#tab-btn{
+#input-btn{
     margin-left:2px;
 }
 ul{
  list-style: none; 
- padding:1px;
+ padding:1px ;
  margin: 18px 0;
 }
 li{
@@ -61,4 +62,12 @@ button:hover{
 #delete-btn:hover{
     background-color:#B97A95 ;
     color: white;
+    
+}
+h5{
+    color: red;
+}
+
+.change-color::placeholder{
+    color:red;
 }
