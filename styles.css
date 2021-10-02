@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 10px; 
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 300px;
+}
+
+input{
+    width: 100%;
+    padding: 10px ; 
+    margin : 5px 0;
+    box-sizing: border-box; 
+    border: solid #664E88 1.7px ;
+    border-radius: 3px;
+    outline-color: #B97A95;
+}
+
+button{
+    margin: 6px 0 ;
+    padding: 10px 20px;
+    background-color:#664E88 ;
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    border:  solid #664E88 1px  ;
+}
+#delete-btn{
+    margin-left: 2px;
+    color: #664E88;
+    background-color: white;
+  
+}
+#tab-btn{
+    margin-left:2px;
+}
+ul{
+ list-style: none; 
+ padding:1px;
+ margin: 18px 0;
+}
+li{
+ margin: 7px 0;
+}
+a{
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #664E88;
+    
+}
+a:hover{
+    color: #B97A95;
+}
+
+button:hover{
+    background-color:#B97A95 ;
+}
+#delete-btn:hover{
+    background-color:#B97A95 ;
+    color: white;
+}

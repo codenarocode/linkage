@@ -1,0 +1,13 @@
+{  
+    "manifest_version" : 3,
+     "version" : "1.0" ,
+     "name" : "Link Tracker" ,
+     "action" : {
+         "default_popup" : "index.html",
+         "default_icon" : "linkTracker.png"
+     },
+     "permissions" : [
+         "tabs"
+     ]
+
+}
